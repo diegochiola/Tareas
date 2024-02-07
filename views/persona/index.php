@@ -3,7 +3,7 @@
 ?>    
 <main class="container">
     <h1 class= "text-center" >Lista de personas</h1>
-        <a href="crear.php" class= "btn btn-success" > Crear Persona</a>
+        <a href="crear.php" class= "btn btn-success" ><i class="fa-regular fa-square-plus"></i> Crear Persona</a>
             <table id="tblPersonas" class="table table-striped">
                 <thead>
                     <tr>
