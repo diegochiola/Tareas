@@ -25,7 +25,7 @@
                     <td>
                     <a href="<?= BASE_URL?>views/persona/editar-persona.php?p=1" class="btn btn-outline-primary btn-sm" title=" Editar registro "><i class="fa-regular fa-pen-to-square"></i>
                     </a>
-                    <button class="btn btn-outline-danger btn-sm" title=" Eliminar registro "><i class="fa-regular fa-trash-can"></i>
+                    <button class="btn btn-outline-danger btn-sm" title=" Eliminar registro " onclick="fntDeletePersona(1)"><i class="fa-regular fa-trash-can"></i>
 
                     </button>
                     </tr>
