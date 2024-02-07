@@ -9,7 +9,7 @@ class Conexion{
             echo "Error en la conexion: " .mysqli_connect_errno();
         /*}else{
             echo "Conexion exitosa";
-        }/*
+        }*/
         return $mysql;
     }
 }
