@@ -15,8 +15,8 @@
                     <th scope="col">Opciones</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody id= "tblBodyPersonas">
+                   <!--<tr> 
                     <th scope="row">1</th>
                     <td>Mark</td>
                     <td>Otto</td>
@@ -28,10 +28,11 @@
                     <button class="btn btn-outline-danger btn-sm" title=" Eliminar registro " onclick="fntDeletePersona(1)"><i class="fa-regular fa-trash-can"></i>
 
                     </button>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
 </main>
 <?php
     require "../template/footer.php";
 ?>
+<script src="../template/js/functions-persona.js"></script>

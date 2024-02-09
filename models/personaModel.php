@@ -9,9 +9,12 @@
             //
         }
         public function getPersonas(){ //listado de personas
-            $rs= $this->conexion->query("CAL select_personas()");
-            $rs = $rs->fetch_fields();
-            return $rs;
+            $arrayRegistros= array();
+            $rs= $this->conexion->query("SELECT * FROM tabla_personas");
+            while($obj = $rs->fetch_object()){
+                array_push($arrayRegistros, $obj);
+            }
+            return $arrayRegistros;
         }
     
     }
